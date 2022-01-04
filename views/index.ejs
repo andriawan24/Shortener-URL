@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andriawan Shorterner URL</title>
+</head>
+<body>
+    <h1>Selamat Datang</h1>
+    <p>Silahkan isi url</p>
+    <form action="https://shortener.andriawan24.xyz/api/url/shorten" method="post">
+        <input type="text" name="longUrl" id="longUrl" /> <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Hasil: <a href="<%= result %>" target="_blank"><%= result %></a></p>
+</body>
+</html>
