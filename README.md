@@ -1,5 +1,5 @@
 # Shortener-URL
-Build my own shortener link using Node JS
+Build my own shortener link using Node JS, untuk percobaan secara langsung bisa masuk ke [halaman ini](https://shortener.andriawan24.xyz/)
 
 ### Routes
 * ```/shorten``` use POST method
